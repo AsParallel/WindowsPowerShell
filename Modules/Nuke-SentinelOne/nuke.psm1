@@ -1,5 +1,4 @@
-
-n Nuke(){
+function Nuke(){
   [cmdletbinding()]
   $sentinelOne = "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\SentinelAgent";
   $error = $false;
